@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,600;0,700;1,500&family=Poppins:wght@300;400;700&family=Prata&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Poppins', sans-serif;
+}
+
+nav{
+    background-color: grey;
+    height: 100px;
+}
+nav .logo{
+  width: 80px;
+  height: 70px;
+  margin-left: 20px;
+}
+
+a.nav-link{
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Cuprum', serif;
+    color: white;
+    margin-left: 3rem;
+}
+
+.content{
+  padding:35px;
+}
+h1{
+    font-weight: 600;
+    font-family: 'cuprum', serif;
+    margin-right:auto;
+    margin-left: auto;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    margin-right: 30px;
+}
+
+.menu-body{
+    padding: 10px;
+}
+
+.btn-primary{
+    background-color: grey;
+    border: none;
+    margin-block: auto;
+}
+
+.btn-primary:hover{
+    background-color: black;
+}
+.container, section{
+    padding: 50px;
+}
+.banner{
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+
+.search{
+    width:50%;
+    margin: 3rem;
+}
+@media screen and (max-width:700px){
+
+}
